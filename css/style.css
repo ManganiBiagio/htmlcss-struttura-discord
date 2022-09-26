@@ -55,14 +55,15 @@ nav{
     flex-direction: row-reverse;
 }
 
-main .container .box :nth-child(1){
-    flex-grow: 2;
-    background-color: rgb(21, 148, 222);
-}
-main .container .box :nth-child(2){
+.grow-1{
     flex-grow: 1;
     background-color: rgb(188, 117, 182);
 }
+.grow-2{
+    flex-grow: 2;
+    background-color: rgb(21, 148, 222);
+}
+
 
 .box-grande{
     display: flex;
