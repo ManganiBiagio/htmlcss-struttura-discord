@@ -74,7 +74,7 @@ nav{
 
 .box-4elementi{
     display: flex;
-    flex-grow: 2;
+    
     background-color: blue;
     
 }
@@ -103,6 +103,10 @@ nav{
     background-color: palevioletred;
     padding: .5rem;
 
+}
+
+footer .container.black{
+    padding-top: 1rem;
 }
 
 
