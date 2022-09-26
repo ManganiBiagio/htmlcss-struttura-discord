@@ -50,17 +50,16 @@ nav{
     width: 920px;
     margin: auto;
     height: 400px;
-    background-color: aqua;
 }
 .reverse{
     flex-direction: row-reverse;
 }
 
-.container .box :nth-child(1){
+main .container .box :nth-child(1){
     flex-grow: 2;
     background-color: rgb(21, 148, 222);
 }
-.container .box :nth-child(2){
+main .container .box :nth-child(2){
     flex-grow: 1;
     background-color: rgb(188, 117, 182);
 }
@@ -71,6 +70,29 @@ nav{
     margin: auto;
     height: 400px;
 }
+
+.box-4elementi{
+    display: flex;
+    flex-grow: 2;
+    background-color: blue;
+    
+}
+
+.box-4elementi >*{
+    border: 1px solid white;
+    flex-grow: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ------------------------------------ */
@@ -89,6 +111,9 @@ nav{
 
 .verde{
     background-color: green;
+}
+.black{
+    background-color: black;
 }
 
 /* ------------------------------------ */
