@@ -3,3 +3,81 @@
     margin: 0;
     padding: 0;
 }
+
+
+/* ------------------------------------ */
+/* nav */
+nav{
+    background-color: yellow;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    padding: .5rem 1rem;
+}
+.container-nav{
+    background-color: aquamarine;
+    padding: 1rem 0;
+}
+ nav :not(:nth-child(2)){
+    min-width: 10rem;
+
+ }
+
+ nav :nth-child(2){
+    flex-grow: 1;
+    text-align: center;  
+ }
+
+ nav :nth-child(3){
+    text-align: end;
+ }
+/* ------------------------------------ */
+
+.container{
+    padding: 3rem 0;
+}
+
+.box-piccolo{
+    padding: 1rem 0;
+    background-color: pink;
+    width: 800px;
+    margin:auto;
+    height: 400px;
+}
+
+.box{
+    display: flex;
+    width: 920px;
+    margin: auto;
+    height: 400px;
+    background-color: aqua;
+}
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.container .box :nth-child(1){
+    flex-grow: 2;
+    background-color: rgb(21, 148, 222);
+}
+.container .box :nth-child(2){
+    flex-grow: 1;
+    background-color: rgb(188, 117, 182);
+}
+
+
+/* ------------------------------------ */
+/* colori-box */
+.blu{
+    background-color: blue;
+}
+
+.bianco{
+    background-color: white;
+}
+
+.grigio{
+    background-color: gray;
+}
+
+/* ------------------------------------ */
