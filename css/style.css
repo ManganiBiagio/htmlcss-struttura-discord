@@ -83,6 +83,27 @@ main .container .box :nth-child(2){
     flex-grow: 1;
 }
 
+.container-footer{
+    border-top: 2px solid white;
+    padding-top: 1rem;
+}
+
+.box-footer{
+    display: flex;
+    width: 920px;
+    margin: auto;
+    height: 80px;
+    background-color: aquamarine;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-footer >*{
+    background-color: palevioletred;
+    padding: .5rem;
+
+}
+
 
 
 
